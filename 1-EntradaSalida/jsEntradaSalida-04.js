@@ -4,6 +4,9 @@ y lo muestro por 'ID' al presionar el botón 'mostrar'
 */
 function mostrar()
 {
-	alert("ok");
+	var vCodigo;
+
+	vCodigo = prompt("codigo","Ingre su codigo de identificacion personal");
+	document.getElementById("txtIdNombre").value = vCodigo;
 }
 
